@@ -25,7 +25,6 @@ nav ul {
 
 nav ul li {
     float: left;
-    /*font-family: Arial, sans-serif;*/
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
 
@@ -81,7 +80,7 @@ div.pagina {
     width: 50%;
     margin:auto;
     padding: 20px;
-    margin-top: 65px;
+    margin-top: 50px;
     box-shadow: 0 0 7px ;
     background-color:;
 }
@@ -93,6 +92,14 @@ h1 {
     font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
+}
+
+h3{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    background-color:lemonchiffon;
+    text-align: center;
+
 }
 
 p {
