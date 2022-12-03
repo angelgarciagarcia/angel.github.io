@@ -71,10 +71,7 @@ aside {
 aside ol li a {
     text-decoration: none;
     color: orange;
-    
-
 }
-
 
 
 
@@ -82,10 +79,11 @@ aside ol li a {
 /*--  CONTENIDO  --*/
 div.pagina {
     width: 50%;
-    margin-left: 24%;
+    margin:auto;
     padding: 20px;
     margin-top: 65px;
-    box-shadow: 0 0 7px ;    
+    box-shadow: 0 0 7px ;
+    background-color:;
 }
 
 h1 {
