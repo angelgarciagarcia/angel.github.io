@@ -80,7 +80,7 @@ div.pagina {
     width: 50%;
     margin:auto;
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 40px;
     box-shadow: 0 0 7px ;
     background-color:;
 }
@@ -92,6 +92,9 @@ h1 {
     font-variant: normal;
     font-weight: 700;
     line-height: 26.4px;
+    border-bottom: solid;
+    border-bottom-color:lemonchiffon;
+    border-bottom-width: 3px;
 }
 
 h3{
@@ -99,6 +102,7 @@ h3{
     font-family: "Times New Roman", Times, serif;
     background-color:lemonchiffon;
     text-align: center;
+    color: orange;
 
 }
 
