@@ -57,7 +57,7 @@ aside {
     margin-left: 9%;
     float: left;
     line-height: 1.6;
-    background-color:lightblue;
+    background-color:#CEF6F5;
     position: fixed;
     font-family: serif;
     border-left-style: solid;
@@ -87,8 +87,8 @@ h1 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 24px;
    font-weight:450; 
-    background-color:lightblue;
-    color:darkblue;
+    background-color: #CEF6F5;
+    color:#0101DF;
 }
 
 h3{
