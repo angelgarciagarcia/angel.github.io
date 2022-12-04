@@ -1,5 +1,6 @@
 - 👋 Hola! soy Ángel García.
 - 🌱 Actualmente estoy estudiando programación.
+- 📚 Este repositorio está creado para repasar conocimientos.
 - 📫 Puedes contactarme por correo: angelgarcia23599@gmail.com
 
 <!---
