@@ -36,6 +36,13 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li:hover {
+    background: deepskyblue;
+}
+
+.active {
+    background-color: deepskyblue;
+}
 
 
 
@@ -50,17 +57,17 @@ aside {
     margin-left: 9%;
     float: left;
     line-height: 1.6;
-  
+    background-color:lightblue;
     position: fixed;
     font-family: serif;
     border-left-style: solid;
-
+    border-color:deepskyblue;
     font-family: 'Raleway', sans-serif;
 }
 
 aside ol li a {
     text-decoration: none;
-
+    color: darkblue;
 }
 
 
@@ -80,16 +87,16 @@ h1 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 24px;
    font-weight:450; 
-   
-
+    background-color:lightblue;
+    color:darkblue;
 }
 
 h3{
     font-size: 40px;
     font-family: "Times New Roman", Times, serif;
-    color:white;
+    background-color:deepskyblue;
     text-align: center;
-
+    color: white;
 }
 
 p {
@@ -97,3 +104,19 @@ p {
     font-weight: lighter;
     font-family: 'Raleway', sans-serif;
 }
+
+
+
+
+
+
+/*
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+*/
+

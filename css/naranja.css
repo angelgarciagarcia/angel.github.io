@@ -1,0 +1,33 @@
+nav ul li:hover {
+    background: #eca023;
+}
+
+.active {
+    background-color: #eca023;
+}
+
+
+
+
+
+aside {
+    border-color:#eca023;
+}
+
+aside ol li a {
+    text-decoration: none;
+    color: orange;
+}
+
+
+
+
+
+h1 {
+    background-color:lemonchiffon;
+    color:orange
+}
+
+h3{
+    background-color:orange;
+}
