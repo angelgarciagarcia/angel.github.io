@@ -50,17 +50,14 @@ aside {
     margin-left: 9%;
     float: left;
     line-height: 1.6;
-  
     position: fixed;
     font-family: serif;
     border-left-style: solid;
-
     font-family: 'Raleway', sans-serif;
 }
 
 aside ol li a {
     text-decoration: none;
-
 }
 
 
@@ -86,7 +83,6 @@ h3{
     font-family: "Times New Roman", Times, serif;
     color:white;
     text-align: center;
-
 }
 
 p {
