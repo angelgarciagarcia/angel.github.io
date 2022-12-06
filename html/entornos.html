@@ -46,54 +46,17 @@
         <ol>
             <ul style="list-style-type: none">Indice</ul>
             <li><a href="#1">Definición</a></li>
-            <li><a href="#2">Entrada Salida</a></li>
-            <li><a href="#2">Variables</a></li>
-            <li><a href="#2">Bucles</a></li>
-            <li><a href="#3">Strings</a></li>
-            <li><a href="#4">Array</a></li>
+            <li><a href="#2"></a></li>
+            <li><a href="#2"></a></li>
+            <li><a href="#2"></a></li>
+            <li><a href="#3"></a></li>
+            <li><a href="#4"></a></li>
         </ol>
     </aside>
 
     <div class="pagina">
-        <h3>Java</h3>
+        <h3>Git</h3>
         <h1 id="1">1. Definición</h1>
-        <p>Esto es un párrafo de ejemplo</p>
-
-        <pre><code class="language-java">package ud1.practices;
-import java.util.Locale;
-import java.util.Scanner;
-
-/*
- * El resultat de l'operació de collatz
- * per a N = 27 després de 12 iteracions
- * és ????
- */
-
-public class DebugCollatz {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in).useLocale(Locale.US);
-        System.out.print("Introdueix un número: ");
-        int inicial = in.nextInt();
-        int n = inicial;
-        int counter = 0;
-
-        do {
-            if(n % 2 == 0)
-                n = n * 2 + 1;
-            else
-                n = (n + 1) / 2;
-            counter++;
-        } while (n != 1);
-
-        System.out.printf("S'ha arribat del %d al 1 després de %d passos.\n", inicial, counter);
-    }
-}</code></pre>
-
-        <pre><code class="language-sql">UPDATE table_name
-SET column1 = value1, column2 = value2, ...
-WHERE condition;
-     </code></pre>
-
     </div>
 
 </body>
