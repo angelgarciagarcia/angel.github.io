@@ -76,11 +76,9 @@ div.pagina {
 }
 
 h1 {
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 24px;
-   font-weight:450; 
-   
-
+   font-family: 'Merriweather Sans', sans-serif;
+   font-size: 24px;
+   font-weight:450;   
 }
 
 h3{
@@ -95,4 +93,13 @@ p {
     font-size: 17px;
     font-weight: lighter;
     font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    line-height: 125%;
+}
+
+li{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif; 
+    line-height: 150%;
 }

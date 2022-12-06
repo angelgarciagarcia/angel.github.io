@@ -1,0 +1,26 @@
+<h1>¿Qué es Java?</h1>
+<p>Java es un lenguaje <strong>multiplataforma</strong>, orientado a objetos y centrado en la red. Es un lenguaje de programación rápido, seguro y confiable para codificarlo todo, desde aplicaciones móviles y software empresarial hasta aplicaciones de macrodatos y tecnologías del servidor.</p>
+<p>Todos los lenguajes de programación son un medio para comunicarse con las máquinas. Los lenguajes de programación de <strong>alto nivel</strong> como Java actúan como un puente entre el lenguaje humano y el lenguaje del hardware.</p><br>
+<p>Cuando se desarrollaron por primera vez los lenguajes de programación naturales, se dividieron en dos grandes categorías, según cómo se comunicaran con el hardware subyacente.</p>
+
+<ol>
+<li><strong>Compiladores:</strong> se escribe el programa completo en una sintaxis similar a la del inglés natural con compiladores, y el lenguaje posteriormente compila (o traduce) todo el código a código máquina. A continuación, el código compilado se ejecuta en el hardware.</li>
+<li><strong>Intérpretes:</strong> mediante intérpretes, cada instrucción de código de nivel superior se interpreta en código máquina sobre la marcha.  El hardware ejecuta inmediatamente las declaraciones escritas antes de ver la siguiente declaración.</li>
+</ol>
+
+<p>El programa Java fue el primer lenguaje en combinar los dos métodos anteriores mediante Java Virtual Machine (JVM). El compilador de código Java se llama Java Virtual Machine. Cualquier archivo Java se compila primero en código de bytes. El código de bytes de Java solo se puede ejecutar en la JVM. Luego, la JVM interpreta el código de bytes para ejecutarlo en la plataforma de hardware subyacente. Entonces, si la aplicación se ejecuta en una máquina con Windows, la JVM la interpretará para Windows. Pero si se ejecuta en una plataforma de código abierto como Linux, la JVM lo interpretará para Linux.</p>
+
+<h1>Sintaxis</h1>
+
+public class Main {
+  public static void main(String[] args) {
+  }
+}
+
+<p>Cada línea de código que se ejecuta en Java debe estar dentro de una clase. En nuestro ejemplo, llamamos a la clase <strong>Main</strong>. Una clase siempre debe comenzar con una primera letra mayúscula.</p> <p><strong><em>Nota: </em></strong>Java distingue entre mayúsculas y minúsculas: "MyClass" y "myclass" tienen un significado diferente.</p><p> El nombre del archivo java <strong>debe coincidir</strong> con el nombre de la clase.</p>
+
+<h1></h1>
+
+webgrafia:
+https://aws.amazon.com/es/what-is/java/
+https://www.w3schools.com/
