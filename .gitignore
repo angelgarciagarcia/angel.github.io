@@ -1,5 +1,5 @@
 # VisualStudioCode
-angel.github.io.code-workspace
+*.code-workspace
 
-#Docuemntos de texto plano
+# Ignora todos los archivos de texto
 *.txt
