@@ -46,7 +46,8 @@
         <ol>
             <ul style="list-style-type: none">Indice</ul>
             <li><a href="#1">Definición</a></li>
-            <li><a href="#2">Entrada Salida</a></li>
+            <li><a href="#2">Mostrar información</a></li>
+            <li><a href="#2">Introducir información</a></li>
             <li><a href="#2">Variables</a></li>
             <li><a href="#2">Bucles</a></li>
             <li><a href="#3">Strings</a></li>
@@ -81,7 +82,7 @@
             ejecuta en una máquina con Windows, la JVM la interpretará para Windows. Pero si se ejecuta en una
             plataforma de código abierto como Linux, la JVM lo interpretará para Linux.</p>
         <h1>Sintaxis</h1>
-<pre><code class="language-java">public class Main {
+        <pre><code class="language-java">public class Main {
     public static void main(String[] args) {
 }</code></pre>
         <p>Cada línea de código que se ejecuta en Java debe estar dentro de una clase. En nuestro ejemplo, llamamos a la
@@ -89,6 +90,30 @@
         <p><strong><em>Nota: </em></strong>Java distingue entre mayúsculas y minúsculas: "MyClass" y "myclass" tienen un
             significado diferente.</p>
         <p> El nombre del archivo java <strong>debe coincidir</strong> con el nombre de la clase.</p>
+        <h1>Mostrar información</h1>
+        <p>Dentro del método main(), podemos usar el método print para mostrar una línea de texto en la pantalla</p>
+        <pre><code class="language-java">public static void main(String[] args) {
+    System.out.print("Hello World");
+  }</code></pre>
+        <p>La diferencia entre print() y println() es que println() salta de linea al terminar</p>
+        <p>Para mostrar texto, debes poner la frase o palabras entre comillas dobles printl("Hola");</p>
+        <p>Puedes usar print para realizar operaciones matemáticas println(3+2);</p>
+        <h1>Comentarios</h1>
+        <p>Para añadir comentarios de una sola línea escribe el texto detrás de //</p>
+        <pre><code class="language-java">// This is a comment
+System.out.println("Hello World");</code></pre>
+        <p>Para añadir comentarios de varias líneas, inserta el texto comentado entre /* y */</p>
+        <pre><code class="language-java">/* The code below will print the words Hello World
+to the screen, and it is amazing */
+System.out.println("Hello World");</code></pre>
+        <h1>Variables</h1>
+        <ul>
+            <li>String - guarda texto, el texto debe guardarse entre comillas dobles. "Hola"</li>
+            <li>int - guarda enteros desde -123 hasta 123</li>
+            <li>float - guarda numeros con decimal</li>
+            <li>char - almacena un caracter, debe guardarse entre comilla simple. 'A'</li>
+            <li>boolean - guarda dos posibles estados: true o false</li>
+        </ul>
         <h1>Webgrafia:</h1>
         <p>https://aws.amazon.com/es/what-is/java/</p>
         <p>https://www.w3schools.com/</p>
